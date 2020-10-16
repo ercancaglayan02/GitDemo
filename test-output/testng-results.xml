@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13892" started-at="2020-10-11T01:35:04 EDT" finished-at="2020-10-11T01:35:18 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13892" started-at="2020-10-11T01:35:04 EDT" finished-at="2020-10-11T01:35:18 EDT">
+      <class name="Ercandeneme2.MavenProject2.ExtendTest01">
+        <test-method status="PASS" signature="config()[pri:0, instance:Ercandeneme2.MavenProject2.ExtendTest01@396f6598]" name="config" is-config="true" duration-ms="92" started-at="2020-10-11T01:35:04 EDT" finished-at="2020-10-11T01:35:04 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="FAIL" signature="demo()[pri:0, instance:Ercandeneme2.MavenProject2.ExtendTest01@396f6598]" name="demo" duration-ms="13771" started-at="2020-10-11T01:35:04 EDT" finished-at="2020-10-11T01:35:18 EDT">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[session not created
+from chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QPFEMJR', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x0076D343+3134275]
+Ordinal0 [0x0065A131+2007345]
+Ordinal0 [0x004FAD70+568688]
+Ordinal0 [0x004F1364+529252]
+Ordinal0 [0x004F19FC+530940]
+Ordinal0 [0x004F2C15+535573]
+Ordinal0 [0x004EDFC5+516037]
+Ordinal0 [0x004FBF50+573264]
+Ordinal0 [0x004A1916+203030]
+Ordinal0 [0x004A0C1D+199709]
+Ordinal0 [0x0049EB0B+191243]
+Ordinal0 [0x00482E77+77431]
+Ordinal0 [0x00483E3E+81470]
+Ordinal0 [0x00483DC9+81353]
+Ordinal0 [0x00670C99+2100377]
+GetHandleVerifier [0x008DB71A+1396954]
+GetHandleVerifier [0x008DB399+1396057]
+GetHandleVerifier [0x008E70E6+1444518]
+GetHandleVerifier [0x008DBCA8+1398376]
+Ordinal0 [0x00667F11+2064145]
+Ordinal0 [0x006722AB+2106027]
+Ordinal0 [0x006723D1+2106321]
+Ordinal0 [0x00684984+2181508]
+BaseThreadInitThunk [0x77806359+25]
+RtlGetAppContainerNamedObjectPath [0x779F7C24+228]
+RtlGetAppContainerNamedObjectPath [0x779F7BF4+180]
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=85.0.4183.121)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QPFEMJR', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+Ordinal0 [0x0076D343+3134275]
+Ordinal0 [0x0065A131+2007345]
+Ordinal0 [0x004FAD70+568688]
+Ordinal0 [0x004F1364+529252]
+Ordinal0 [0x004F19FC+530940]
+Ordinal0 [0x004F2C15+535573]
+Ordinal0 [0x004EDFC5+516037]
+Ordinal0 [0x004FBF50+573264]
+Ordinal0 [0x004A1916+203030]
+Ordinal0 [0x004A0C1D+199709]
+Ordinal0 [0x0049EB0B+191243]
+Ordinal0 [0x00482E77+77431]
+Ordinal0 [0x00483E3E+81470]
+Ordinal0 [0x00483DC9+81353]
+Ordinal0 [0x00670C99+2100377]
+GetHandleVerifier [0x008DB71A+1396954]
+GetHandleVerifier [0x008DB399+1396057]
+GetHandleVerifier [0x008E70E6+1444518]
+GetHandleVerifier [0x008DBCA8+1398376]
+Ordinal0 [0x00667F11+2064145]
+Ordinal0 [0x006722AB+2106027]
+Ordinal0 [0x006723D1+2106321]
+Ordinal0 [0x00684984+2181508]
+BaseThreadInitThunk [0x77806359+25]
+RtlGetAppContainerNamedObjectPath [0x779F7C24+228]
+RtlGetAppContainerNamedObjectPath [0x779F7BF4+180]
+
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at Ercandeneme2.MavenProject2.ExtendTest01.demo(ExtendTest01.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- Ercandeneme2.MavenProject2.ExtendTest01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
